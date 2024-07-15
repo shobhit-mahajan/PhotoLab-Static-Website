@@ -1,0 +1,67 @@
+.imagesec {
+  margin: 1.8rem 0.5rem;
+  text-align: center;
+}
+.imagesec h1 {
+  margin: 0.5rem 0;
+}
+.cardcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 1rem 0;
+  /* gap: 20px; */
+}
+.card {
+  background-color: #fff;
+  width: 350px;
+  padding: 0.5rem;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin: 0.3rem 0.5rem;
+  cursor: pointer;
+}
+
+.arrow {
+  font-size: 1.5rem;
+}
+.card:hover,
+.card:nth-child(2) {
+  background-color: #292828;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+.card:hover .stroketext p,
+.card:nth-child(2) .stroketext p {
+  background-color: #292828;
+  color: #fff;
+  color: white;
+  -webkit-text-fill-color: #292828;
+  font-size: 4rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  transition: all 0.5s ease;
+}
+.card:nth-child(2):hover {
+  background-color: #fff;
+  color: #292828;
+}
+.card:nth-child(2):hover .stroketext p {
+  background-color: #fff;
+  color: #292828;
+  color: #292828;
+  -webkit-text-fill-color: #fff;
+  font-size: 4rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #292828;
+}
+.stroketext p {
+  color: black;
+  -webkit-text-fill-color: white;
+  font-size: 4rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  transition: all 0.5s ease;
+}

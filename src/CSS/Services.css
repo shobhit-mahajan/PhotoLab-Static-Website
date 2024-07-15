@@ -1,0 +1,43 @@
+.container {
+  text-align: center;
+}
+.servicecontent {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.servicecontent .rightsidecontent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  width: 60%;
+  margin-top: 4rem;
+}
+.des {
+  margin: 0.3rem 0.5rem;
+  padding: 0 0.3rem;
+}
+.des:nth-child(2) {
+  grid-row: 1/3;
+  grid-column: 2;
+}
+.des .icons,
+.desc h1 {
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 940px) {
+  .servicecontent .rightsidecontent {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+  .des:nth-child(2) {
+    grid-row: 1;
+    grid-column: 1;
+  }
+}

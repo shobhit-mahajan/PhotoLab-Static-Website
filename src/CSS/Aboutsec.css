@@ -1,0 +1,57 @@
+.aboutsec {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.leftaboutsec {
+  width: 450px;
+  height: 550px;
+  background-image: url("https://cdn.pixabay.com/photo/2023/03/28/17/04/woman-7883774_1280.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border-radius: 10px;
+  margin: 0.3rem 0.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.leftaboutsec::after {
+  content: " ";
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  background-image: url("https://cdn.pixabay.com/photo/2020/05/09/13/29/photographer-5149664_1280.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  bottom: -30px;
+  right: -30px;
+  border-radius: 10px;
+  margin: 0.3rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.rightaboutsec {
+  width: 550px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.8rem 0.5rem;
+}
+@media screen and (max-width: 940px) {
+  .leftaboutsec {
+    width: 350px;
+    height: 450px;
+  }
+  .leftaboutsec::after {
+    bottom: -30px;
+    right: -20px;
+    width: 200px;
+    height: 250px;
+  }
+}

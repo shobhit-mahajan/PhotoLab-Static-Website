@@ -1,0 +1,50 @@
+.reviewsec {
+  margin: 1.8rem 0.5rem;
+  position: relative;
+}
+
+.reviewsec h1 {
+  margin: 1.2rem 0.3rem;
+  padding: 0.8rem 0;
+}
+.reviewcardcontainer {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+  font-size: 1.5rem;
+}
+.slick-slide > div {
+  margin: 0 1rem;
+}
+.reviewcardcontainer .reviewcard {
+  width: 350px;
+  height: 100%;
+  background-color: black;
+  color: rgb(246, 247, 249);
+  padding: 0.5rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin: 0.5rem 0;
+}
+.reviewcard .uppercontent {
+  display: flex;
+  align-items: center;
+}
+.detail {
+  margin-left: 0.8rem;
+}
+.reviewcard .uppercontent img {
+  width: 60px;
+  height: 60px;
+}
+.uppercontent p {
+  margin: 0.5rem 0;
+}
+.rating {
+  margin: 0.8rem 0.3rem;
+  color: orange;
+}

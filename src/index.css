@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  font-family: "Mukta", sans-serif;
+  font-style: normal;
+  color: #001d3d;
+  max-width: 1240px;
+  margin: auto;
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+}
+.icon {
+  font-size: 1.8rem;
+  margin: 0 0.8rem;
+}
+@media screen and (max-width: 940px) {
+  body {
+    width: auto;
+    margin: 0;
+  }
+}

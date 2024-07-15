@@ -1,0 +1,26 @@
+.expsection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.leftexpsec {
+  margin: 0 0.5rem;
+  width: 550px;
+}
+.leftexpsec p {
+  margin: 0.5rem 0;
+}
+.expno {
+  display: flex;
+  margin-top: 0.8rem;
+}
+
+.value {
+  margin-right: 0.8rem;
+  margin-top: 0.8rem;
+  padding-right: 0.5rem;
+}
+
+.value h3 {
+  font-size: 1.8rem;
+}
