@@ -1,8 +1,17 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## PhotoLab: A Photography Portfolio Website
 
-Currently, two official plugins are available:
+This project showcases a personal photography portfolio website built using:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## React: 
+A JavaScript library for building user interfaces.
+Vite: A lightning-fast development server for modern web development.
+JavaScript: The primary scripting language for web development.
+CSS: Cascading Style Sheets for defining the website's visual appearance.
+Features:
+
+## Responsive Design:
+Adapts seamlessly to different screen sizes.
+Image Gallery: Displays your captivating photographs.
+About Me Section: Introduces yourself and your photography journey.
+Contact Information: Provides a way for potential clients or collaborators to reach you.
